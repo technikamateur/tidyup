@@ -1,0 +1,4 @@
+changelog:
+*fixed again autoupdate (hopefully it will work now)
+*fixed version number was not displayed
+*improved cleaning speed

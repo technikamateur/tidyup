@@ -1,0 +1,6 @@
+changelog:
+*added GPLv3 license
+*added more cleaning options
+*reduced data transfer
+*reduced memory consumtion
+*changed and optimized update procedure

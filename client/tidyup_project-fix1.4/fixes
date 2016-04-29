@@ -1,0 +1,8 @@
+changelog:
+*New: simply enter "tidyup" - wherever you are...
+*HUGE speed improvements
+*changed complete update procedure (to curl and php)
+*reduced data transfer
+*reduced memory consumtion
+*removed setup --> please read "READme"
+*fixed error with bash

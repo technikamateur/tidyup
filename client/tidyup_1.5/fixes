@@ -1,0 +1,3 @@
+changelog:
+* fixed a bug that tidyup could not be used if there was no internet connection
+* BETA: added Seafile cleaning: you will be asked!
