@@ -9,13 +9,14 @@
   - opensource
 
 ### How to install:
-- download tidyup to a directory of your choice
-- enter chmod a+x tidyup.sh and simply run ./tidyup.sh
+- download tidyup to a directory of your choice: 
+`wget (link)`
+- enter `chmod +x tidyup.sh` and simply run `/tidyup.sh`
 - make sure, you are superuser!
 
-#### How to use:
+### How to use:
 
-Simply enter "tidyup" -wherever you are...
+Simply enter `tidyup` -wherever you are...
 
 #### But allways keep in mind:
 
@@ -26,4 +27,4 @@ Simply enter "tidyup" -wherever you are...
 **GPLv3**<br>
 For more information see *LICENSE.txt*.
 
-#### Thanks for downloading!!
+### Thanks for downloading!!
