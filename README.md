@@ -11,7 +11,7 @@
 ### How to install:
 - download tidyup to a directory of your choice: 
 `wget (link)`
-- enter `chmod +x tidyup.sh` and simply run `/tidyup.sh`
+- enter `chmod +x tidyup.sh` and simply run `./tidyup.sh`
 - make sure, you are superuser!
 
 ### How to use:
