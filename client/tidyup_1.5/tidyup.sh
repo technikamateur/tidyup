@@ -49,7 +49,7 @@ if ! [[ -f /usr/bin/curl ]]; then
 fi
 # checking for update
 echo "Checking for Updates..."
-curl -s --request GET https://raw.githubusercontent.com/technikamateur/tidyup/master/update.info || $internet=false
+curl -s --request GET https://raw.githubusercontent.com/technikamateur/tidyup/master/update.info > /dev/null || $internet=false
 if [[ $internet == true ]]; then
   wget -N -q https://raw.githubusercontent.com/technikamateur/tidyup/master/update.info
   lversion="$(cat update.info)"
@@ -63,6 +63,7 @@ if [[ $internet == true ]]; then
     echo "Please restart script!"
     exit 0
   else
+    echo "No Updates available."
     rm update.info > /dev/null
   fi
 else
