@@ -53,7 +53,7 @@ curl -s --request GET https://raw.githubusercontent.com/technikamateur/tidyup/ma
 if [[ $internet == true ]]; then
   wget -N -q https://raw.githubusercontent.com/technikamateur/tidyup/master/update.info
   lversion="$(cat update.info)"
-  if not [[ $lversion == $version ]]; then
+  if [[ $lversion != $version ]]; then
     clear
     echo "Updating..."
     wget -N -q https://github.com/technikamateur/tidyup/releases/download/$lversion/tidyup.sh
