@@ -18,11 +18,6 @@
 
 Simply enter `tidyup` -wherever you are...
 
-#### But allways keep in mind:
-
-- This is an in development script.
-- Please report bugs: [technikamateur@gmx.de](mailto:technikamateur@gmx.de)
-
 ## License:
 **GPLv3**<br>
 For more information see *LICENSE.txt*.
